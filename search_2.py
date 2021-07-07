@@ -13,7 +13,7 @@ def search():
     if word in source:
         print (f"{word}が見つかりました")
     else:
-        print(f"{word}は見つかりません")
+        print(f"{word}が見つからなかったので")
         source.append(word)
         print(f"{word}をリストに追加しました")
         print(source)
